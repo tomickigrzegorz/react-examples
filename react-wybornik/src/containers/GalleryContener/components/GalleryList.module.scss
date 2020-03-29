@@ -1,0 +1,86 @@
+.gallery {
+    overflow-x: hidden;
+    height: calc(100vh - 90px);
+    padding: 0 2px 17px 5px;
+
+    @media (max-width: 799px) {
+        padding: 0 5px 17px 5px;
+    }
+
+    .galleryItem {
+        position: relative;
+        line-height: 100%;
+        margin-bottom: 3px;
+        background-color: #cecece;
+
+        &:hover {
+            &:before {
+                position: absolute;
+                content: " ";
+                width: 100%;
+                height: 100%;
+                background: rgba(255, 255, 255, .2);
+            }
+
+            &:after {
+                position: absolute;
+                content: " + ";
+                font-weight: 700;
+                font-size: 10rem;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -130%);
+                color: red;
+            }
+        }
+
+        &.active {
+            position: relative;
+
+            &:after {
+                position: absolute;
+                content: "";
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                background-color: red;
+                font-weight: 700;
+                font-size: 10rem;
+                border: 5px solid #fff;
+                left: 0;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                color: #ff0000;
+                z-index: 2;
+            }
+
+            &:before {
+                position: absolute;
+                content: " ";
+                top: 0;
+                z-index: 2;
+                width: 100%;
+                height: 100%;
+                background: rgba(255, 255, 255, .4);
+                box-shadow: inset 0 0 20px #ff0000;
+            }
+        }
+    }
+
+    strong {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin: auto;
+        font-size: 5rem;
+        color: #fff;
+        text-shadow: 4px 3px 7px rgba(0, 0, 0, 0.44);
+        line-height: 100%;
+        z-index: 3;
+    }
+
+    >div {
+        cursor: pointer;
+    }
+}

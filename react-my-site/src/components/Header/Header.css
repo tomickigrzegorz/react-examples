@@ -1,0 +1,18 @@
+.navbarTop {
+    margin: 10px;
+}
+
+@media (min-width: 320px) {
+    .navbarTop {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 900px) {
+    .navbarTop {
+        flex-direction: row;
+        align-items: center;
+    }
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "image": "https://via.placeholder.com/1200x800/004d7a/1.jpg"
+    },
+    {
+        "id": 2,
+        "image": "https://via.placeholder.com/533x800/000/2.jpg"
+    },
+    {
+        "id": 3,
+        "image": "https://via.placeholder.com/1200x800/008793/3.jpg"
+    },
+    {
+        "id": 4,
+        "image": "https://via.placeholder.com/1200x800/00bf72/4.jpg"
+    },
+    {
+        "id": 5,
+        "image": "https://via.placeholder.com/1200x800/a8eb12/5.jpg"
+    },
+    {
+        "id": 6,
+        "image": "https://via.placeholder.com/1200x800/ff0000/5.jpg"
+    },
+    {
+        "id": 7,
+        "image": "https://via.placeholder.com/1200x800/f86800/6.jpg"
+    },
+    {
+        "id": 8,
+        "image": "https://via.placeholder.com/1200x800/e79b00/7.jpg"
+    },
+    {
+        "id": 9,
+        "image": "https://via.placeholder.com/1200x800/ccc600/8.jpg"
+    },
+    {
+        "id": 10,
+        "image": "https://via.placeholder.com/1200x800/a8eb12/9.jpg"
+    }
+]

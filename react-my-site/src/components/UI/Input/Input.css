@@ -1,0 +1,52 @@
+p {
+    margin: 0;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    box-sizing: border-box;
+    padding: 12px 10px;
+}
+
+textarea {
+    resize: none;
+}
+
+.input {
+    width: 100%;
+    padding: 2px 0;
+}
+
+.label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.inputElement {
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 9px 10px;
+    display: block;
+    width: 100%;
+}
+
+.inputElement:focus {
+    outline: none;
+    background-color: #f3f3f3;
+}
+
+.invalid {
+    border: 1px solid #fda49a;
+    background-color: #ffe1e1;
+}
+
+.validationError {
+    color: red;
+    font-size: 80%;
+} 

@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "type": "ślub",
+        "name": "agnieszka i andrzej",
+        "thumbnail": "images/thumbnail/IMG_5600.jpg",
+        "folder": "agnieszka-i-andrzej-slub"
+    },
+    {
+        "id": 2,
+        "type": "plener",
+        "name": "agnieszka i andrzej",
+        "thumbnail": "images/thumbnail/IMG_6610.jpg",
+        "folder": "agnieszka-i-andrzej-plener"
+    },
+    {
+        "id": 3,
+        "type": "ślub",
+        "name": "magda i grzesiek",
+        "thumbnail": "images/thumbnail/IMG_3466.jpg",
+        "folder": "magda-i-grzesiek-slub"
+    },
+    {
+        "id": 4,
+        "type": "plener",
+        "name": "magda i grzesiek",
+        "thumbnail": "images/thumbnail/IMG_4140.jpg",
+        "folder": "magda-i-grzesiek-plener"
+    },
+    {
+        "id": 5,
+        "type": "ślub",
+        "name": "monika i pawel",
+        "thumbnail": "images/thumbnail/IMG_2516.jpg",
+        "folder": "monika-i-pawel-slub"
+    },
+    {
+        "id": 6,
+        "type": "plener",
+        "name": "monika i pawel",
+        "thumbnail": "images/thumbnail/IMG_2949.jpg",
+        "folder": "monika-i-pawel-plener"
+    },
+    {
+        "id": 7,
+        "type": "ślub",
+        "name": "dorota i piotrek",
+        "thumbnail": "images/thumbnail/IMG_1102.jpg",
+        "folder": "dorota-i-piotrek-slub"
+    },
+    {
+        "id": 8,
+        "type": "plener",
+        "name": "dorota i piotrek",
+        "thumbnail": "images/thumbnail/IMG_2326.jpg",
+        "folder": "dorota-i-piotrek-plener"
+    },
+    {
+        "id": 9,
+        "type": "ślub",
+        "name": "marlena i przemek",
+        "thumbnail": "images/thumbnail/IMG_9679.jpg",
+        "folder": "marlena-i-przemek-slub"
+    },
+    {
+        "id": 10,
+        "type": "plener",
+        "name": "marlena i przemek",
+        "thumbnail": "images/thumbnail/IMG_0599.jpg",
+        "folder": "marlena-i-przemek-plener"
+    },
+    {
+        "id": 11,
+        "type": "ślub",
+        "name": "ania i kamil",
+        "thumbnail": "images/thumbnail/IMG_1332.jpg",
+        "folder": "ania-i-kamil-slub"
+    },
+    {
+        "id": 12,
+        "type": "plener",
+        "name": "ania i kamil",
+        "thumbnail": "images/thumbnail/IMG_0911.jpg",
+        "folder": "ania-i-kamil-plener"
+    }
+]

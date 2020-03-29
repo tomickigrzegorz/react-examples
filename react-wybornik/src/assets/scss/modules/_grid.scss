@@ -1,0 +1,28 @@
+.col {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+$gap: 20px;
+$gutter: $gap / 2;
+@media (min-width: 800px) {
+    .row {
+        display: flex;
+        margin-left: -$gutter;
+    }
+    .col {
+        padding: 0 $gutter;
+        margin-bottom: 0;
+    }
+    @for $i from 1 through 12 {
+        .col#{$i} {
+            width: ( $i * 100% / 12);
+        }
+    }
+}
+
+.col9 {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: -10px;
+}

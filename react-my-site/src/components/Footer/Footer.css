@@ -1,0 +1,15 @@
+.footer {
+    max-width: 1800px;
+    margin: auto;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 12px;
+    font-size: 1.2rem;
+}
+
+.copyright {
+    font-size: 60%
+}

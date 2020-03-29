@@ -1,0 +1,9 @@
+.logo {
+    padding: 5px 15px;
+    img {
+        max-width: 150px;
+        @media (max-width: 430px) {
+            max-width: 120px;
+        }
+    }
+}

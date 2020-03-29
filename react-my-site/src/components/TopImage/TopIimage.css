@@ -1,0 +1,28 @@
+.paralax__place {
+    position: relative;
+}
+
+.parallax__thumbnail {
+    position: relative;
+    background-size: cover;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, .3);
+}
+
+@media (min-width: 320px) {
+    .parallax__thumbnail {
+        background-position: center center;
+        background-attachment: scroll;
+        margin: 10px 0;
+        height: 40vw;
+    }
+}
+
+@media (min-width: 1280px) {
+    .parallax__thumbnail {
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 45vw;
+        margin: 10px 0;
+    }
+}

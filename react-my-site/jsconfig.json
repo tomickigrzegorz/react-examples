@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./src/",
+    "paths": {
+      "*": ["*"],
+      "Assets/*": ["assets/*"],
+      "Components/*": ["components/*"],
+      "Containers/*": ["containers/*"],
+      "Data/*": ["data/*"],
+      "Hoc/*": ["hoc/*"],
+      "Share/*": ["share/*"],
+      "Store/*": ["store/*"],
+    }
+  },
+  "exclude": ["node_modules", "**/node_modules/*", "build", "**/build/*"]
+}

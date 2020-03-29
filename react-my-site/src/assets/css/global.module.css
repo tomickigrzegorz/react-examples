@@ -1,0 +1,96 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box
+}
+
+html {
+    font-size: 62%;
+}
+
+body {
+    background: #fff;
+    color: #50596c;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-size: 1.6rem;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+}
+
+a {
+    color: #50596c;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 1px solid;
+}
+
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 140%;
+}
+
+.center {
+    text-align: center;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.context {
+    padding: 6rem 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .context {
+        padding: 1rem 0;
+        font-size: 80%;
+    }
+}
+
+@media (min-width: 320px) {
+    .navbar__section {
+        width: 100%;
+    }
+}
+
+@media (max-width: 899px) {
+    .navbar__section {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 900px) {
+    .navbar__section {
+        width: 50%;
+    }
+}
+
+.react-datepicker {
+    font-size: 1.3rem !important;
+}
+
+.react-datepicker__current-month {
+    font-size: 1.5rem !important;
+}
+
+.react-datepicker__header {
+    padding-top: 6px !important;
+}
+
+.react-datepicker__navigation {
+    top: 13px !important;
+}
+
+.react-datepicker__day-name,
+.react-datepicker__day {
+    margin: 0.5rem !important;
+}

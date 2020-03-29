@@ -1,0 +1,27 @@
+.logo__svg a {
+  display: block;
+  border: none;
+}
+.logo__svg a:hover {
+  border: none;
+}
+
+@media (max-width: 450px) {
+  .logo {
+    max-width: 50%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 0px) {
+  .logo {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 899px) {
+  .logo {
+      margin: auto;
+      display: block;
+  }
+}

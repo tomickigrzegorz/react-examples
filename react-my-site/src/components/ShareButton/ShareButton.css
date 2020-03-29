@@ -1,0 +1,26 @@
+.shareButton {
+    position: fixed;
+    right: 6px;
+    top: 0;
+}
+
+.share-icon {
+    fill: #FFF;
+    border: 0;
+}
+
+.shareBtn {
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+}
+
+@media all and (min-width: 899px) {
+    .shareButton {
+        top: 134px;
+    }
+    .shareBtn {
+        width: 42px;
+        height: 42px;
+    }
+}
